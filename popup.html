@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Regex Multiple Select</title>
+        <script
+            src="popup.js"
+            defer></script>
+    </head>
+    <body>
+        <h1>Regex Multiple Select</h1>
+        <form id="regexForm">
+            <label for="selectId">Select ID:</label>
+            <input
+                type="text"
+                id="selectId"
+                name="selectId"
+                required />
+            <br />
+            <label for="regexPattern">Regex Pattern:</label>
+            <input
+                type="text"
+                id="regexPattern"
+                name="regexPattern"
+                required />
+            <br />
+            <button type="submit">Anwenden</button>
+        </form>
+        <p id="statusMessage"></p>
+    </body>
+</html>
